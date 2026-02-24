@@ -1,0 +1,308 @@
+{
+  "categories": [
+    { "id": "1", "name": "Abstract" },
+    { "id": "2", "name": "Animals" },
+    { "id": "3", "name": "Dessert" },
+    { "id": "4", "name": "Landscape" },
+    { "id": "5", "name": "Lifestyle" },
+    { "id": "6", "name": "Superhero" }
+  ],
+
+  "artists": [
+    { "id": "1", "firstName": "Vincent", "lastName": "van Gogh" },
+    { "id": "2", "firstName": "Claude", "lastName": "Monet" },
+    { "id": "3", "firstName": "Leonardo", "lastName": "da Vinci" },
+    { "id": "4", "firstName": "Pablo", "lastName": "Picasso" },
+    { "id": "5", "firstName": "Salvador", "lastName": "Dali" }
+  ],
+
+  "photos": [
+    {
+      "id": "1",
+      "title": "Toothbrush",
+      "imageThumbUrl": "https://imgur.com/3ImjfuL.jpg",
+      "imageUrl": "https://imgur.com/3ImjfuL.jpg",
+      "artistId": "1",
+      "categoryId": "1",
+      "price": 150.0
+    },
+    {
+      "id": "2",
+      "title": "Grass",
+      "imageThumbUrl": "https://imgur.com/kumwebQ.jpg",
+      "imageUrl": "https://imgur.com/kumwebQ.jpg",
+      "artistId": "2",
+      "categoryId": "1",
+      "price": 250.0
+    },
+    {
+      "id": "3",
+      "title": "Umbrellas",
+      "imageThumbUrl": "https://imgur.com/C9mDl7b.jpg",
+      "imageUrl": "https://imgur.com/C9mDl7b.jpg",
+      "artistId": "3",
+      "categoryId": "1",
+      "price": 150.0
+    },
+    {
+      "id": "4",
+      "title": "Lights",
+      "imageThumbUrl": "https://imgur.com/qg4Kvzg.jpg",
+      "imageUrl": "https://imgur.com/qg4Kvzg.jpg",
+      "artistId": "4",
+      "categoryId": "1",
+      "price": 200.0
+    },
+    {
+      "id": "5",
+      "title": "Electric",
+      "imageThumbUrl": "https://imgur.com/JEkwfbq.jpg",
+      "imageUrl": "https://imgur.com/JEkwfbq.jpg",
+      "artistId": "5",
+      "categoryId": "1",
+      "price": 350.0
+    },
+    {
+      "id": "6",
+      "title": "Dog1",
+      "imageThumbUrl": "https://imgur.com/lUU4Pgp.jpg",
+      "imageUrl": "https://imgur.com/lUU4Pgp.jpg",
+      "artistId": "1",
+      "categoryId": "2",
+      "price": 400.0
+    },
+    {
+      "id": "7",
+      "title": "Dog2",
+      "imageThumbUrl": "https://imgur.com/UGsyGkA.jpg",
+      "imageUrl": "https://imgur.com/UGsyGkA.jpg",
+      "artistId": "2",
+      "categoryId": "2",
+      "price": 150.0
+    },
+    {
+      "id": "8",
+      "title": "Dog3",
+      "imageThumbUrl": "https://imgur.com/lKAklkX.jpg",
+      "imageUrl": "https://imgur.com/lKAklkX.jpg",
+      "artistId": "3",
+      "categoryId": "2",
+      "price": 350.0
+    },
+    {
+      "id": "9",
+      "title": "Dog4",
+      "imageThumbUrl": "https://imgur.com/WozwJO8.jpg",
+      "imageUrl": "https://imgur.com/WozwJO8.jpg",
+      "artistId": "4",
+      "categoryId": "2",
+      "price": 250.0
+    },
+    {
+      "id": "10",
+      "title": "Dog5",
+      "imageThumbUrl": "https://imgur.com/zXBKHYT.jpg",
+      "imageUrl": "https://imgur.com/zXBKHYT.jpg",
+      "artistId": "5",
+      "categoryId": "2",
+      "price": 100.0
+    },
+    {
+      "id": "11",
+      "title": "Oreo",
+      "imageThumbUrl": "https://github.com/google-developer-training/basic-android-kotlin-compose-training-dessert-clicker/blob/main/app/src/main/res/drawable/oreo.xml",
+      "imageUrl": "https://github.com/google-developer-training/basic-android-kotlin-compose-training-dessert-clicker/blob/main/app/src/main/res/drawable/oreo.xml",
+      "artistId": "1",
+      "categoryId": "3",
+      "price": 100.0
+    },
+    {
+      "id": "12",
+      "title": "Cupcake",
+      "imageThumbUrl": "https://github.com/google-developer-training/basic-android-kotlin-compose-training-dessert-clicker/blob/main/app/src/main/res/drawable/cupcake.xml",
+      "imageUrl": "https://github.com/google-developer-training/basic-android-kotlin-compose-training-dessert-clicker/blob/main/app/src/main/res/drawable/cupcake.xml",
+      "artistId": "2",
+      "categoryId": "3",
+      "price": 100.0
+    },
+    {
+      "id": "13",
+      "title": "Donut",
+      "imageThumbUrl": "https://github.com/google-developer-training/basic-android-kotlin-compose-training-dessert-clicker/blob/main/app/src/main/res/drawable/donut.xml",
+      "imageUrl": "https://github.com/google-developer-training/basic-android-kotlin-compose-training-dessert-clicker/blob/main/app/src/main/res/drawable/donut.xml",
+      "artistId": "3",
+      "categoryId": "3",
+      "price": 100.0
+    },
+    {
+      "id": "14",
+      "title": "Cake",
+      "imageThumbUrl": "https://github.com/google-developer-training/basic-android-kotlin-compose-training-dessert-clicker/blob/main/app/src/main/res/drawable/eclair.xml",
+      "imageUrl": "https://github.com/google-developer-training/basic-android-kotlin-compose-training-dessert-clicker/blob/main/app/src/main/res/drawable/eclair.xml",
+      "artistId": "4",
+      "categoryId": "3",
+      "price": 100.0
+    },
+    {
+      "id": "15",
+      "title": "Sorbet",
+      "imageThumbUrl": "https://github.com/google-developer-training/basic-android-kotlin-compose-training-dessert-clicker/blob/main/app/src/main/res/drawable/froyo.xml",
+      "imageUrl": "https://github.com/google-developer-training/basic-android-kotlin-compose-training-dessert-clicker/blob/main/app/src/main/res/drawable/froyo.xml",
+      "artistId": "5",
+      "categoryId": "3",
+      "price": 100.0
+    },
+    {
+      "id": "16",
+      "title": "Beach",
+      "imageThumbUrl": "https://github.com/google-developer-training/basic-android-kotlin-compose-training-affirmations/blob/starter/app/src/main/res/drawable/image1.jpg",
+      "imageUrl": "https://github.com/google-developer-training/basic-android-kotlin-compose-training-affirmations/blob/starter/app/src/main/res/drawable/image1.jpg",
+      "artistId": "1",
+      "categoryId": "4",
+      "price": 550.0
+    },
+    {
+      "id": "17",
+      "title": "Lake",
+      "imageThumbUrl": "https://github.com/google-developer-training/basic-android-kotlin-compose-training-affirmations/blob/starter/app/src/main/res/drawable/image2.jpg",
+      "imageUrl": "https://github.com/google-developer-training/basic-android-kotlin-compose-training-affirmations/blob/starter/app/src/main/res/drawable/image2.jpg",
+      "artistId": "2",
+      "categoryId": "4",
+      "price": 650.0
+    },
+    {
+      "id": "18",
+      "title": "Fjord",
+      "imageThumbUrl": "https://github.com/google-developer-training/basic-android-kotlin-compose-training-affirmations/blob/starter/app/src/main/res/drawable/image3.jpg",
+      "imageUrl": "https://github.com/google-developer-training/basic-android-kotlin-compose-training-affirmations/blob/starter/app/src/main/res/drawable/image3.jpg",
+      "artistId": "3",
+      "categoryId": "4",
+      "price": 700.0
+    },
+    {
+      "id": "19",
+      "title": "Ocean",
+      "imageThumbUrl": "https://github.com/google-developer-training/basic-android-kotlin-compose-training-affirmations/blob/starter/app/src/main/res/drawable/image4.jpg",
+      "imageUrl": "https://github.com/google-developer-training/basic-android-kotlin-compose-training-affirmations/blob/starter/app/src/main/res/drawable/image4.jpg",
+      "artistId": "4",
+      "categoryId": "4",
+      "price": 290.0
+    },
+    {
+      "id": "20",
+      "title": "Bridge",
+      "imageThumbUrl": "https://github.com/google-developer-training/basic-android-kotlin-compose-training-affirmations/blob/starter/app/src/main/res/drawable/image5.jpg",
+      "imageUrl": "https://github.com/google-developer-training/basic-android-kotlin-compose-training-affirmations/blob/starter/app/src/main/res/drawable/image5.jpg",
+      "artistId": "5",
+      "categoryId": "4",
+      "price": 380.0
+    },
+    {
+      "id": "21",
+      "title": "Cars",
+      "imageThumbUrl": "https://imgur.com/gUynUIt.jpg",
+      "imageUrl": "https://imgur.com/gUynUIt.jpg",
+      "artistId": "5",
+      "categoryId": "5",
+      "price": 90.0
+    },
+    {
+      "id": "22",
+      "title": "Flautist",
+      "imageThumbUrl": "https://imgur.com/tLJC276.jpg",
+      "imageUrl": "https://imgur.com/tLJC276.jpg",
+      "artistId": "5",
+      "categoryId": "5",
+      "price": 200.0
+    },
+    {
+      "id": "23",
+      "title": "Photographer",
+      "imageThumbUrl": "https://imgur.com/1ZXJHEC.jpg",
+      "imageUrl": "https://imgur.com/1ZXJHEC.jpg",
+      "artistId": "5",
+      "categoryId": "5",
+      "price": 300.0
+    },
+    {
+      "id": "24",
+      "title": "Car",
+      "imageThumbUrl": "https://imgur.com/5mahd8H.jpg",
+      "imageUrl": "https://imgur.com/5mahd8H.jpg",
+      "artistId": "5",
+      "categoryId": "5",
+      "price": 170.0
+    },
+    {
+      "id": "25",
+      "title": "Hiking",
+      "imageThumbUrl": "https://imgur.com/Z69OKFA.jpg",
+      "imageUrl": "https://imgur.com/Z69OKFA.jpg",
+      "artistId": "5",
+      "categoryId": "5",
+      "price": 400.0
+    },
+    {
+      "id": "26",
+      "title": "Superhero1",
+      "imageThumbUrl": "https://developer.android.com/static/codelabs/basic-android-kotlin-compose-practice-superheroes/img/268233a1e2b3b407_1440.png",
+      "imageUrl": "https://developer.android.com/static/codelabs/basic-android-kotlin-compose-practice-superheroes/img/268233a1e2b3b407_1440.png",
+      "artistId": "1",
+      "categoryId": "6",
+      "price": 150.0
+    },
+    {
+      "id": "27",
+      "title": "Superhero2",
+      "imageThumbUrl": "https://developer.android.com/static/codelabs/basic-android-kotlin-compose-practice-superheroes/img/268233a1e2b3b407_1440.png",
+      "imageUrl": "https://developer.android.com/static/codelabs/basic-android-kotlin-compose-practice-superheroes/img/268233a1e2b3b407_1440.png",
+      "artistId": "2",
+      "categoryId": "6",
+      "price": 150.0
+    },
+    {
+      "id": "28",
+      "title": "Superhero3",
+      "imageThumbUrl": "https://developer.android.com/static/codelabs/basic-android-kotlin-compose-practice-superheroes/img/268233a1e2b3b407_1440.png",
+      "imageUrl": "https://developer.android.com/static/codelabs/basic-android-kotlin-compose-practice-superheroes/img/268233a1e2b3b407_1440.png",
+      "artistId": "3",
+      "categoryId": "6",
+      "price": 150.0
+    },
+    {
+      "id": "29",
+      "title": "Superhero4",
+      "imageThumbUrl": "https://developer.android.com/static/codelabs/basic-android-kotlin-compose-practice-superheroes/img/268233a1e2b3b407_1440.png",
+      "imageUrl": "https://developer.android.com/static/codelabs/basic-android-kotlin-compose-practice-superheroes/img/268233a1e2b3b407_1440.png",
+      "artistId": "4",
+      "categoryId": "6",
+      "price": 150.0
+    },
+    {
+      "id": "30",
+      "title": "Superhero5",
+      "imageThumbUrl": "https://developer.android.com/static/codelabs/basic-android-kotlin-compose-practice-superheroes/img/268233a1e2b3b407_1440.png",
+      "imageUrl": "https://developer.android.com/static/codelabs/basic-android-kotlin-compose-practice-superheroes/img/268233a1e2b3b407_1440.png",
+      "artistId": "5",
+      "categoryId": "6",
+      "price": 150.0
+    }
+
+  
+  ],
+  "frametypes": [
+    { "id": "1", "name": "Wood", "color": "0xff80f0", "extraPrice": 0.0 },
+    { "id": "2", "name": "Metal", "color": "0x04F4f0", "extraPrice": 100.0 },
+    { "id": "3", "name": "Plastic", "color": "0x09a6fa", "extraPrice": 30.0 }
+  ],
+"framewidths": [
+    { "id": "1", "name": "10mm", "width": 10, "extraPrice": 0.0 },
+    { "id": "2", "name": "15mm", "width": 15, "extraPrice": 50.0 },
+    { "id": "3", "name": "20mm", "width": 20, "extraPrice": 100.0 }
+  ],
+  "photosizes": [
+    { "id": "1", "name": "Small", "size":170, "extraPrice": 0.0  },
+    { "id": "2", "name": "Medium", "size":200, "extraPrice": 130.0  },
+    { "id": "3", "name": "Large", "size":250, "extraPrice": 230.0  }
+  ]
+}

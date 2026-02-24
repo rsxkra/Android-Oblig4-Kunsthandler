@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Artshop</string>
+    <string name="ArtDealer">Art Dealer</string>
+    <string name="choices">Choose pictures based on</string>
+    <string name="TotalPics">Total pictures chosen:</string>
+    <string name="TotalPrice">Total price:</string>
+    <string name="Checkout">Checkout</string>
+    <string name="FrameType">Frame Type:</string>
+    <string name="FrameWidth">Frame Width:</string>
+    <string name="PhotoSize">Photo Size:</string>
+    <string name="PhotoPrice">Price:</string>
+    <string name="Artists">Artists</string>
+    <string name="Categories">Categories</string>
+    <string name="Pay">Pay</string>
+    <string name="Details">Details</string>
+    <string name="title">%s</string>
+    <string name="PicFrom">Pictures from</string>
+    <string name="PicIn">Pictures in</string>
+    <string name="PaymentOptions">Payment options</string>
+    <string name="NoPayment">Payment method not implemented yet.</string>
+    <string name="CreditCard">Credit Card</string>
+    <string name="Paypal">PayPal</string>
+    <string name="BankTransfer">Bank Transfer</string>
+    <string name="Home">Home</string>
+    <string name="AddToBasket">Add to basket</string>
+
+
+
+</resources>
